@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage 
+	xmlns="http://xamarin.com/schemas/2014/forms" 
+	xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+	x:Class="MosquitoTrapCount.TrapCountCollectionView"
+	Title="Trap Counts">
+	<ContentPage.Content>
+	<ListView ItemsSource="{Binding Records}"
+		ItemSelected="OnItemSelected"
+		SelectedItem="{Binding Selected}"
+		HasUnevenRows="true"
+		>
+			<ListView.ItemTemplate>
+			    <DataTemplate>
+			    	<ViewCell Height="120">
+			    		<Grid Padding="0">
+			    			<Grid.ColumnDefinitions>
+			    				<ColumnDefinition/>
+			    				<ColumnDefinition/>
+			    				<ColumnDefinition/>
+			    			</Grid.ColumnDefinitions>
+			    			<BoxView BackgroundColor="{Binding MonthColor}" Grid.Column="0" VerticalOptions="FillAndExpand" HorizontalOptions="Start" WidthRequest="10"/>
+							<StackLayout Grid.Column="0" Spacing="0" Orientation="Vertical" HorizontalOptions="Center" VerticalOptions="Center">
+		    					<Label Text="{Binding Month}" TextColor="{Binding MonthColor}" VerticalOptions="CenterAndExpand" FontSize="30" HorizontalOptions="Center"/>
+		    					<Label Text="{Binding Day}" FontSize="50" VerticalOptions="CenterAndExpand" HorizontalOptions="Center"/>
+		    				</StackLayout>
+		    				<StackLayout Grid.Column="1" Orientation="Vertical" HorizontalOptions="Center" VerticalOptions="Center">
+		    					<Label Text="{Binding Trap1CountDisplay}" FontSize="12" HorizontalOptions="Start"/>
+		    					<Label Text="{Binding Trap2CountDisplay}" FontSize="12" HorizontalOptions="Start"/>
+		    					<Label Text="{Binding Trap3CountDisplay}" FontSize="12" HorizontalOptions="Start"/>
+		    					<Label Text="{Binding Trap4CountDisplay}" FontSize="12" HorizontalOptions="Start"/>
+		    					<Label Text="{Binding Trap5CountDisplay}" FontSize="12" HorizontalOptions="Start"/>
+		    				</StackLayout>
+		    				<StackLayout Grid.Column="2" Orientation="Vertical" HorizontalOptions="Center" VerticalOptions="Center">
+		    					<Label Text="Daily Avg" FontSize="12" HorizontalOptions="Center"/>
+		    					<Label Text="{Binding Avg}" FontSize="12" HorizontalOptions="Center"/>
+		    				</StackLayout>
+	    				</Grid>
+			    	</ViewCell>
+			    </DataTemplate>
+			  </ListView.ItemTemplate>
+		</ListView>
+	</ContentPage.Content>
+</ContentPage>
