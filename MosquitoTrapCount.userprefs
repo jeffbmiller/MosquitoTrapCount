@@ -6,8 +6,8 @@
       <File FileName="iOS/Main.cs" Line="1" Column="1" />
       <File FileName="MosquitoTrapCount/CityOfBrandonApi.cs" Line="1" Column="1" />
       <File FileName="MosquitoTrapCount/Views/YTDTrapsChartView.cs" Line="1" Column="1" />
-      <File FileName="MosquitoTrapCount/Views/TrapCountCollectionView.xaml" Line="15" Column="30" />
-      <File FileName="MosquitoTrapCount/Views/MenuView.xaml" Line="19" Column="1" />
+      <File FileName="MosquitoTrapCount/Views/TrapCountCollectionView.xaml" Line="17" Column="3" />
+      <File FileName="MosquitoTrapCount/Views/MenuView.xaml" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

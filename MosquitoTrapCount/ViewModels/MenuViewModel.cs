@@ -9,9 +9,9 @@ namespace MosquitoTrapCount
         public MenuViewModel()
         {
             MenuItems = new ObservableCollection<MenuItem>();
-            MenuItems.Add(new MenuItem("2015 Trap Counts", Color.Green, "Mosquito.png"));
-            MenuItems.Add(new MenuItem("Historical Trap Counts", Color.Navy, "HistoryIcon.png"));
-            MenuItems.Add(new MenuItem("Charts", Color.Purple, "Chart.png"));
+            MenuItems.Add(new MenuItem("2015 Trap Counts", Color.FromHex("#879B57"), "Mosquito.png"));
+            MenuItems.Add(new MenuItem("Historical Trap Counts", Color.FromHex("#DBA177"), "HistoryIcon.png"));
+            MenuItems.Add(new MenuItem("Charts", Color.FromHex("#D48044"), "Chart.png"));
         }
 
         public ObservableCollection<MenuItem> MenuItems {get;set;}

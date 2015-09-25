@@ -16,6 +16,11 @@ namespace MosquitoTrapCount.iOS
             new SfChartRenderer();
             global::Xamarin.Forms.Forms.Init();
 
+            UINavigationBar.Appearance.BarTintColor = UIColor.FromRGB(81, 66, 99);
+            UINavigationBar.Appearance.TintColor = UIColor.White;
+            UINavigationBar.Appearance.SetTitleTextAttributes(new UITextAttributes(){ TextColor = UIColor.White });
+            UIApplication.SharedApplication.SetStatusBarStyle (UIStatusBarStyle.LightContent, false);
+
             LoadApplication(new App());
 
             return base.FinishedLaunching(app, options);
