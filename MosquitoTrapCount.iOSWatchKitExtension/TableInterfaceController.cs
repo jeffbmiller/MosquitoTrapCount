@@ -19,22 +19,31 @@ namespace MosquitoTrapCount.iOSWatchKitExtension
         public override void Awake(NSObject context)
         {
             base.Awake(context);
-
+           
             LoadTableData();
         }
 
-        private async void LoadTableData()
+        private void LoadTableData()
         {
-            var results = await CityOfBrandonApi.GetAll2015();
-            var data = results.ToList();
-//            var data = new List<DateTime>(){DateTime.Now, DateTime.Now.AddDays(1), DateTime.Now.AddDays(2)};
-            trapCountTable.SetNumberOfRows(data.Count, "TrapCountTableRowController");
+            OpenParentApplication(new NSDictionary(), (replyInfo, error) =>
+                {   
+                    if(error != null) {
+                        Console.WriteLine (error);
+                        return;
+                    }
+                    Console.WriteLine(replyInfo);
 
-            foreach (var d in data)
-            {
-                var row = trapCountTable.GetRowController(data.IndexOf(d)) as TrapCountTableRowController;
-                row.Update(d.SamplingDate, d.DailyAvgCount);
-            }
+                    trapCountTable.SetNumberOfRows((int)replyInfo.Count, "TrapCountTableRowController");
+        
+                    var index = 0;
+                    foreach (var d in replyInfo)
+                    {
+                        var row = trapCountTable.GetRowController(index) as TrapCountTableRowController;
+                        row.Update(d.Key.ToString(), d.Value.ToString());
+                        index++;
+                    }
+                });
+
         }
 	}
 }

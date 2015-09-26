@@ -5,6 +5,7 @@ using System.Linq;
 using Foundation;
 using UIKit;
 using Syncfusion.SfChart.XForms.iOS.Renderers;
+using MosquitoTrapCount.PCL;
 
 namespace MosquitoTrapCount.iOS
 {
@@ -25,6 +26,17 @@ namespace MosquitoTrapCount.iOS
 
             return base.FinishedLaunching(app, options);
         }
+
+        public async override void HandleWatchKitExtensionRequest(UIApplication application, NSDictionary userInfo, Action<NSDictionary> reply)
+        {
+            var results = await CityOfBrandonApi.GetAll2015();
+            var dictionary = new NSMutableDictionary();
+            foreach(var d in results)       
+                dictionary.Add(new NSString(d.SamplingDate.ToString("MMM d")), new NSString(d.DailyAvgCount.ToString()));
+            reply(dictionary);
+
+        }
     }
+        
 }
 

@@ -1,13 +1,15 @@
 ﻿<Properties StartupItem="MosquitoTrapCount.iOSWatchKitExtension/MosquitoTrapCount.iOSWatchKitExtension.csproj">
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Release|iPhone" PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneDeviceTarget.millerj’s iPhone" />
-  <MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.IPhone6.8.2" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="iOS/AppDelegate.cs">
     <Files>
-      <File FileName="MosquitoTrapCount.iOSWatchKitExtension/TableInterfaceController.cs" Line="36" Column="24" />
-      <File FileName="MosquitoTrapCount.iOSWatchKitExtension/TrapCountTableRowController.cs" Line="17" Column="50" />
+      <File FileName="MosquitoTrapCount.iOSWatchKitExtension/TableInterfaceController.cs" Line="28" Column="54" />
+      <File FileName="iOS/AppDelegate.cs" Line="34" Column="52" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
+    <BreakpointStore>
+      <Breakpoint file="/Users/jeffmiller/Dev/MosquitoTrapCount/iOS/AppDelegate.cs" line="32" column="1" />
+    </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
 </Properties>

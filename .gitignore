@@ -9,3 +9,5 @@ MosquitoTrapCount.iOSWatchKitExtension/obj/*
 MosquitoTrapCount.iOSWatchKitApp/bin/*
 MosquitoTrapCount.iOSWatchKitApp/obj/*
 MosquitoTrapCount.iOSWatchKitExtension/bin/*
+
+MosquitoTrapCount.iOSWatchKitExtension/bin/iPhoneSimulator/Debug/*
