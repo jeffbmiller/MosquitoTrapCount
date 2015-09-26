@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MosquitoTrapCount", "MosquitoTrapCount\MosquitoTrapCount.csproj", "{F211D244-8D6A-4632-A09D-ADA5FF1E7DD1}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MosquitoTrapCount.PCL", "MosquitoTrapCount\MosquitoTrapCount.PCL.csproj", "{F211D244-8D6A-4632-A09D-ADA5FF1E7DD1}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MosquitoTrapCount.iOS", "iOS\MosquitoTrapCount.iOS.csproj", "{716E1D95-2A1D-4E19-B2B7-E38DA391C7EB}"
 EndProject

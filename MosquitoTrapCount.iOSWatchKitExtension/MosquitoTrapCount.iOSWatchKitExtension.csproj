@@ -76,6 +76,14 @@
     <Compile Include="InterfaceController.designer.cs">
       <DependentUpon>InterfaceController.cs</DependentUpon>
     </Compile>
+    <Compile Include="TableInterfaceController.cs" />
+    <Compile Include="TableInterfaceController.designer.cs">
+      <DependentUpon>TableInterfaceController.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TrapCountTableRowController.cs" />
+    <Compile Include="TrapCountTableRowController.designer.cs">
+      <DependentUpon>TrapCountTableRowController.cs</DependentUpon>
+    </Compile>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.AppExtension.CSharp.targets" />
   <ItemGroup>
@@ -83,6 +91,10 @@
       <Project>{EE681E93-E872-4223-9264-FA565E9F9474}</Project>
       <Name>MosquitoTrapCount.iOSWatchKitApp</Name>
       <IsWatchApp>True</IsWatchApp>
+    </ProjectReference>
+    <ProjectReference Include="..\MosquitoTrapCount\MosquitoTrapCount.PCL.csproj">
+      <Project>{F211D244-8D6A-4632-A09D-ADA5FF1E7DD1}</Project>
+      <Name>MosquitoTrapCount.PCL</Name>
     </ProjectReference>
   </ItemGroup>
 </Project>

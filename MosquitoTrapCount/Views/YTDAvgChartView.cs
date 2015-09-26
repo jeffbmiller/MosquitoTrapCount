@@ -4,6 +4,7 @@ using Xamarin.Forms;
 using System.Collections.ObjectModel;
 using Syncfusion.SfChart.XForms;
 using System.Collections.Generic;
+using MosquitoTrapCount.PCL;
 
 namespace MosquitoTrapCount
 {

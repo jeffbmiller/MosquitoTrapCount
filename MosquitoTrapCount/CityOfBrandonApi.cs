@@ -5,7 +5,7 @@ using System.Net.Http;
 using Newtonsoft.Json.Linq;
 using System.Linq;
 
-namespace MosquitoTrapCount
+namespace MosquitoTrapCount.PCL
 {
     public static class CityOfBrandonApi
     {

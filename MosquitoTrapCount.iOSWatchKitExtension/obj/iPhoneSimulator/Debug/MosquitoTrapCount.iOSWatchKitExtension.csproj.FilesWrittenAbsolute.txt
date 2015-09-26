@@ -4,3 +4,12 @@
 /Users/Jeff/Dev/MosquitoTrapCount/MosquitoTrapCount.iOSWatchKitExtension/bin/iPhoneSimulator/Debug/MosquitoTrapCount.iOSWatchKitExtension.dll
 /Users/Jeff/Dev/MosquitoTrapCount/MosquitoTrapCount.iOSWatchKitExtension/obj/iPhoneSimulator/Debug/MosquitoTrapCount.iOSWatchKitExtension.dll
 /Users/Jeff/Dev/MosquitoTrapCount/MosquitoTrapCount.iOSWatchKitExtension/obj/iPhoneSimulator/Debug/MosquitoTrapCount.iOSWatchKitExtension.dll.mdb
+/Users/Jeff/Dev/MosquitoTrapCount/MosquitoTrapCount.iOSWatchKitExtension/bin/iPhoneSimulator/Debug/MosquitoTrapCount.dll
+/Users/Jeff/Dev/MosquitoTrapCount/MosquitoTrapCount.iOSWatchKitExtension/bin/iPhoneSimulator/Debug/MosquitoTrapCount.dll.mdb
+/Users/Jeff/Dev/MosquitoTrapCount/MosquitoTrapCount.iOSWatchKitExtension/bin/iPhoneSimulator/Debug/Xamarin.Forms.Core.dll
+/Users/Jeff/Dev/MosquitoTrapCount/MosquitoTrapCount.iOSWatchKitExtension/bin/iPhoneSimulator/Debug/Syncfusion.SfChart.XForms.dll
+/Users/Jeff/Dev/MosquitoTrapCount/MosquitoTrapCount.iOSWatchKitExtension/bin/iPhoneSimulator/Debug/System.Net.Http.dll
+/Users/Jeff/Dev/MosquitoTrapCount/MosquitoTrapCount.iOSWatchKitExtension/bin/iPhoneSimulator/Debug/Newtonsoft.Json.dll
+/Users/Jeff/Dev/MosquitoTrapCount/MosquitoTrapCount.iOSWatchKitExtension/bin/iPhoneSimulator/Debug/Xamarin.Forms.Xaml.dll
+/Users/Jeff/Dev/MosquitoTrapCount/MosquitoTrapCount.iOSWatchKitExtension/bin/iPhoneSimulator/Debug/Xamarin.Forms.Platform.dll
+/Users/Jeff/Dev/MosquitoTrapCount/MosquitoTrapCount.iOSWatchKitExtension/bin/iPhoneSimulator/Debug/System.Net.Http.Primitives.dll
