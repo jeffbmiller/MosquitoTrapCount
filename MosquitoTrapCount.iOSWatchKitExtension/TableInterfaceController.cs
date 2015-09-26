@@ -25,15 +25,15 @@ namespace MosquitoTrapCount.iOSWatchKitExtension
 
         private async void LoadTableData()
         {
-//            var results = await CityOfBrandonApi.GetAll2015();
-//            data = results.ToList();
-            var data = new List<DateTime>(){DateTime.Now, DateTime.Now.AddDays(1), DateTime.Now.AddDays(2)};
+            var results = await CityOfBrandonApi.GetAll2015();
+            var data = results.ToList();
+//            var data = new List<DateTime>(){DateTime.Now, DateTime.Now.AddDays(1), DateTime.Now.AddDays(2)};
             trapCountTable.SetNumberOfRows(data.Count, "TrapCountTableRowController");
 
             foreach (var d in data)
             {
                 var row = trapCountTable.GetRowController(data.IndexOf(d)) as TrapCountTableRowController;
-                row.Update(d, 1);
+                row.Update(d.SamplingDate, d.DailyAvgCount);
             }
         }
 	}

@@ -14,7 +14,7 @@ namespace MosquitoTrapCount.iOSWatchKitExtension
 
         public void Update(DateTime date, int count)
         {
-            dateLabel.SetText(date.ToString("M"));
+            dateLabel.SetText(date.ToString("MMM d"));
             trapCountLabel.SetText(count.ToString());
                 
         }

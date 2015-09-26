@@ -1,8 +1,9 @@
 ﻿<Properties StartupItem="MosquitoTrapCount.iOSWatchKitExtension/MosquitoTrapCount.iOSWatchKitExtension.csproj">
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.IPhone6.9.0" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="MosquitoTrapCount.iOSWatchKitExtension/TableInterfaceController.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Release|iPhone" PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneDeviceTarget.millerj’s iPhone" />
+  <MonoDevelop.Ide.Workbench>
     <Files>
-      <File FileName="MosquitoTrapCount.iOSWatchKitExtension/TableInterfaceController.cs" Line="12" Column="11" />
+      <File FileName="MosquitoTrapCount.iOSWatchKitExtension/TableInterfaceController.cs" Line="36" Column="24" />
+      <File FileName="MosquitoTrapCount.iOSWatchKitExtension/TrapCountTableRowController.cs" Line="17" Column="50" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

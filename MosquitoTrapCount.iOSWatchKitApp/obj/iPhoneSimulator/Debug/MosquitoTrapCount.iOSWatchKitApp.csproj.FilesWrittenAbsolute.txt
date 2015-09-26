@@ -1,5 +1,5 @@
-/Users/Jeff/Dev/MosquitoTrapCount/MosquitoTrapCount.iOSWatchKitApp/obj/iPhoneSimulator/Debug/Xamarin.iOS,Version=v1.0.AssemblyAttribute.cs
-/Users/Jeff/Dev/MosquitoTrapCount/MosquitoTrapCount.iOSWatchKitApp/obj/iPhoneSimulator/Debug/ibtool/Interface.storyboardc/Interface.plist
-/Users/Jeff/Dev/MosquitoTrapCount/MosquitoTrapCount.iOSWatchKitApp/obj/iPhoneSimulator/Debug/actool/partial-info.plist
-/Users/Jeff/Dev/MosquitoTrapCount/MosquitoTrapCount.iOSWatchKitApp/obj/iPhoneSimulator/Debug/actool/asset-manifest.plist
-/Users/Jeff/Dev/MosquitoTrapCount/MosquitoTrapCount.iOSWatchKitApp/obj/iPhoneSimulator/Debug/optimized/
+/Users/jeffmiller/Dev/MosquitoTrapCount/MosquitoTrapCount.iOSWatchKitApp/obj/iPhoneSimulator/Debug/Xamarin.iOS,Version=v1.0.AssemblyAttribute.cs
+/Users/jeffmiller/Dev/MosquitoTrapCount/MosquitoTrapCount.iOSWatchKitApp/obj/iPhoneSimulator/Debug/ibtool/Interface.plist
+/Users/jeffmiller/Dev/MosquitoTrapCount/MosquitoTrapCount.iOSWatchKitApp/obj/iPhoneSimulator/Debug/actool/partial-info.plist
+/Users/jeffmiller/Dev/MosquitoTrapCount/MosquitoTrapCount.iOSWatchKitApp/obj/iPhoneSimulator/Debug/actool/asset-manifest.plist
+/Users/jeffmiller/Dev/MosquitoTrapCount/MosquitoTrapCount.iOSWatchKitApp/obj/iPhoneSimulator/Debug/optimized/

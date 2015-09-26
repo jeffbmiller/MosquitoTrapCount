@@ -1,10 +1,10 @@
-# Version: 9.0.1.20 (xcode7-c5: d8e9592)
-# [first argument, ignore] # /Users/Jeff/Dev/MosquitoTrapCount/MosquitoTrapCount.iOSWatchKitExtension/mtouch.exe
-/Library/Frameworks/Xamarin.iOS.framework/Versions/9.0.1.20/bin/mtouch \
+# Version: 9.0.1.18 (xcode7-c5: d230615)
+# [first argument, ignore] # /Users/jeffmiller/Dev/MosquitoTrapCount/MosquitoTrapCount.iOSWatchKitExtension/mtouch.exe
+/Library/Frameworks/Xamarin.iOS.framework/Versions/9.0.1.18/bin/mtouch \
 	--cache \
-	/Users/Jeff/Dev/MosquitoTrapCount/MosquitoTrapCount.iOSWatchKitExtension/obj/iPhoneSimulator/Debug/mtouch-cache \
+	/Users/jeffmiller/Dev/MosquitoTrapCount/MosquitoTrapCount.iOSWatchKitExtension/obj/iPhoneSimulator/Debug/mtouch-cache \
 	--sim \
-	/Users/Jeff/Dev/MosquitoTrapCount/MosquitoTrapCount.iOSWatchKitExtension/bin/iPhoneSimulator/Debug/com.hylife.MosquitoTrapCount.watchkitextension.appex \
+	/Users/jeffmiller/Dev/MosquitoTrapCount/MosquitoTrapCount.iOSWatchKitExtension/bin/iPhoneSimulator/Debug/com.hylife.MosquitoTrapCount.watchkitextension.appex \
 	--executable \
 	com.hylife.MosquitoTrapCount.watchkitextension \
 	--extension \
@@ -13,12 +13,12 @@
 	--sdkroot \
 	/Applications/Xcode.app/Contents/Developer \
 	--sdk \
-	9.0 \
+	8.2 \
 	--targetver \
 	8.2 \
 	--abi=i386 \
 	--symbollist \
-	/Users/Jeff/Dev/MosquitoTrapCount/MosquitoTrapCount.iOSWatchKitExtension/obj/iPhoneSimulator/Debug/mtouch-symbols.list \
+	/Users/jeffmiller/Dev/MosquitoTrapCount/MosquitoTrapCount.iOSWatchKitExtension/obj/iPhoneSimulator/Debug/mtouch-symbols.list \
 	--dsym=no \
 	-r \
 	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/System.dll \
@@ -29,7 +29,7 @@
 	-r \
 	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/System.Core.dll \
 	-r \
-	/Users/Jeff/Dev/MosquitoTrapCount/MosquitoTrapCount/bin/Debug/MosquitoTrapCount.dll \
+	/Users/jeffmiller/Dev/MosquitoTrapCount/MosquitoTrapCount/bin/Debug/MosquitoTrapCount.dll \
 	-r \
 	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/mscorlib.dll \
 	-r \
@@ -125,21 +125,21 @@
 	-r \
 	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Xml.XmlSerializer.dll \
 	-r \
-	/Users/Jeff/Dev/MosquitoTrapCount/MosquitoTrapCount/bin/Debug/MosquitoTrapCount.dll \
+	/Users/jeffmiller/Dev/MosquitoTrapCount/MosquitoTrapCount/bin/Debug/MosquitoTrapCount.dll \
 	-r \
-	/Users/Jeff/Dev/MosquitoTrapCount/MosquitoTrapCount/bin/Debug/Xamarin.Forms.Core.dll \
+	/Users/jeffmiller/Dev/MosquitoTrapCount/MosquitoTrapCount/bin/Debug/Xamarin.Forms.Core.dll \
 	-r \
-	/Users/Jeff/Dev/MosquitoTrapCount/MosquitoTrapCount/bin/Debug/Syncfusion.SfChart.XForms.dll \
+	/Users/jeffmiller/Dev/MosquitoTrapCount/MosquitoTrapCount/bin/Debug/Syncfusion.SfChart.XForms.dll \
 	-r \
-	/Users/Jeff/Dev/MosquitoTrapCount/MosquitoTrapCount/bin/Debug/System.Net.Http.dll \
+	/Users/jeffmiller/Dev/MosquitoTrapCount/MosquitoTrapCount/bin/Debug/System.Net.Http.dll \
 	-r \
-	/Users/Jeff/Dev/MosquitoTrapCount/MosquitoTrapCount/bin/Debug/Newtonsoft.Json.dll \
+	/Users/jeffmiller/Dev/MosquitoTrapCount/MosquitoTrapCount/bin/Debug/Newtonsoft.Json.dll \
 	-r \
-	/Users/Jeff/Dev/MosquitoTrapCount/MosquitoTrapCount/bin/Debug/Xamarin.Forms.Xaml.dll \
+	/Users/jeffmiller/Dev/MosquitoTrapCount/MosquitoTrapCount/bin/Debug/Xamarin.Forms.Xaml.dll \
 	-r \
-	/Users/Jeff/Dev/MosquitoTrapCount/MosquitoTrapCount/bin/Debug/Xamarin.Forms.Platform.dll \
+	/Users/jeffmiller/Dev/MosquitoTrapCount/MosquitoTrapCount/bin/Debug/Xamarin.Forms.Platform.dll \
 	-r \
-	/Users/Jeff/Dev/MosquitoTrapCount/MosquitoTrapCount/bin/Debug/System.Net.Http.Primitives.dll \
+	/Users/jeffmiller/Dev/MosquitoTrapCount/MosquitoTrapCount/bin/Debug/System.Net.Http.Primitives.dll \
 	--target-framework \
 	"Xamarin.iOS,v1.0" \
-	/Users/Jeff/Dev/MosquitoTrapCount/MosquitoTrapCount.iOSWatchKitExtension/bin/iPhoneSimulator/Debug//MosquitoTrapCount.iOSWatchKitExtension.dll \
+	/Users/jeffmiller/Dev/MosquitoTrapCount/MosquitoTrapCount.iOSWatchKitExtension/bin/iPhoneSimulator/Debug//MosquitoTrapCount.iOSWatchKitExtension.dll \

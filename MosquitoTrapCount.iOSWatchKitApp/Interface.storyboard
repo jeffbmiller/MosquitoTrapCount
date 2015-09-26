@@ -31,9 +31,13 @@
                                 <tableRow id="28" customClass="TrapCountTableRowController" identifier="TrapCountTableRowController">
                                     <group key="rootItem" width="134" alignment="left" id="29" height="51">
                                         <items>
-                                            <label alignment="left" id="34" width="50" height="51" textAlignment="center" text="Aug 13"/>
+                                            <label alignment="left" id="34" width="60" height="51" textAlignment="left" text="Aug 13"/>
                                             <label alignment="right" text="150" id="38" textAlignment="center" verticalAlignment="center"/>
                                         </items>
+                                        <constraints>
+                                            <constraint firstItem="34" firstAttribute="leading" secondItem="29" secondAttribute="leading" constant="7" id="39"/>
+                                            <constraint firstItem="29" firstAttribute="trailing" secondItem="38" secondAttribute="trailing" constant="7" id="40"/>
+                                        </constraints>
                                     </group>
                                     <connections>
                                         <outlet property="dateLabel" destination="34" id="name-outlet-34"/>
