@@ -1,4 +1,4 @@
-﻿<Properties StartupItem="iOS/MosquitoTrapCount.iOS.csproj">
+﻿<Properties StartupItem="MosquitoTrapCount.iOSWatchKitExtension/MosquitoTrapCount.iOSWatchKitExtension.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.IPhone6.9.0" />
   <MonoDevelop.Ide.Workbench />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

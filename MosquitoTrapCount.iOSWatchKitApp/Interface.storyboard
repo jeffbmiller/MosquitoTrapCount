@@ -10,8 +10,9 @@
             <objects>
                 <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModuleProvider="">
                     <items>
-                        <button width="1" alignment="left" title="Button" id="0">
-                            <color key="titleColor" colorSpace="calibratedRGB" red="1" green="0" blue="1" alpha="1"/>
+                        <label alignment="center" text="Brandon Mosquitos" id="2" textAlignment="center" numberOfLines="2"/>
+                        <button width="1" alignment="center" title="2015 Trap Counts" id="3">
+                            <color key="backgroundColor" colorSpace="calibratedRGB" red="0.45490196078431372" green="0.55294117647058827" blue="0.25882352941176473" alpha="1"/>
                         </button>
                     </items>
                 </controller>
