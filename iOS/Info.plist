@@ -5,7 +5,7 @@
 	<key>CFBundleDisplayName</key>
 	<string>MosquitoTrapCount.iOS</string>
 	<key>CFBundleIdentifier</key>
-	<string>com.hylife.MosquitoTrapCount.iOS</string>
+	<string>com.hylife.MosquitoTrapCount</string>
 	<key>CFBundleShortVersionString</key>
 	<string>1.0</string>
 	<key>CFBundleVersion</key>

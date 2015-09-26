@@ -1,0 +1,35 @@
+# Version: 9.0.1.20 (xcode7-c5: d8e9592)
+# [first argument, ignore] # /Users/Jeff/Dev/MosquitoTrapCount/MosquitoTrapCount.iOSWatchKitExtension/mtouch.exe
+/Library/Frameworks/Xamarin.iOS.framework/Versions/9.0.1.20/bin/mtouch \
+	--cache \
+	/Users/Jeff/Dev/MosquitoTrapCount/MosquitoTrapCount.iOSWatchKitExtension/obj/iPhoneSimulator/Debug/mtouch-cache \
+	--sim \
+	/Users/Jeff/Dev/MosquitoTrapCount/MosquitoTrapCount.iOSWatchKitExtension/bin/iPhoneSimulator/Debug/com.hylife.MosquitoTrapCount.watchkitextension.appex \
+	--executable \
+	com.hylife.MosquitoTrapCount.watchkitextension \
+	--extension \
+	--debug \
+	--nolink \
+	--sdkroot \
+	/Applications/Xcode.app/Contents/Developer \
+	--sdk \
+	9.0 \
+	--targetver \
+	8.2 \
+	--abi=i386 \
+	--symbollist \
+	/Users/Jeff/Dev/MosquitoTrapCount/MosquitoTrapCount.iOSWatchKitExtension/obj/iPhoneSimulator/Debug/mtouch-symbols.list \
+	--dsym=no \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/System.dll \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/System.Xml.dll \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Xamarin.iOS.dll \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/System.Core.dll \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/mscorlib.dll \
+	--target-framework \
+	"Xamarin.iOS,v1.0" \
+	/Users/Jeff/Dev/MosquitoTrapCount/MosquitoTrapCount.iOSWatchKitExtension/bin/iPhoneSimulator/Debug//MosquitoTrapCount.iOSWatchKitExtension.dll \

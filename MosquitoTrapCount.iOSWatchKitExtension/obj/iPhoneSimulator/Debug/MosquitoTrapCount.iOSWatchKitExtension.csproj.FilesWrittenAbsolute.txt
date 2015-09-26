@@ -1,0 +1,6 @@
+/Users/Jeff/Dev/MosquitoTrapCount/MosquitoTrapCount.iOSWatchKitExtension/obj/iPhoneSimulator/Debug/Xamarin.iOS,Version=v1.0.AssemblyAttribute.cs
+/Users/Jeff/Dev/MosquitoTrapCount/MosquitoTrapCount.iOSWatchKitExtension/obj/iPhoneSimulator/Debug/optimized/
+/Users/Jeff/Dev/MosquitoTrapCount/MosquitoTrapCount.iOSWatchKitExtension/bin/iPhoneSimulator/Debug/MosquitoTrapCount.iOSWatchKitExtension.dll.mdb
+/Users/Jeff/Dev/MosquitoTrapCount/MosquitoTrapCount.iOSWatchKitExtension/bin/iPhoneSimulator/Debug/MosquitoTrapCount.iOSWatchKitExtension.dll
+/Users/Jeff/Dev/MosquitoTrapCount/MosquitoTrapCount.iOSWatchKitExtension/obj/iPhoneSimulator/Debug/MosquitoTrapCount.iOSWatchKitExtension.dll
+/Users/Jeff/Dev/MosquitoTrapCount/MosquitoTrapCount.iOSWatchKitExtension/obj/iPhoneSimulator/Debug/MosquitoTrapCount.iOSWatchKitExtension.dll.mdb
