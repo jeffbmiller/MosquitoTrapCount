@@ -4,7 +4,6 @@ using System.CodeDom.Compiler;
 using UIKit;
 using System.Linq;
 using System.Collections.Generic;
-using MosquitoTrapCount.PCL;
 
 namespace MosquitoTrapCount.iOSWatchKitExtension
 {
@@ -15,12 +14,16 @@ namespace MosquitoTrapCount.iOSWatchKitExtension
             
 
 		}
-
+        public override void WillActivate()
+        {
+            base.WillActivate();
+            LoadTableData();
+        }
         public override void Awake(NSObject context)
         {
             base.Awake(context);
            
-            LoadTableData();
+//            LoadTableData();
         }
 
         private void LoadTableData()

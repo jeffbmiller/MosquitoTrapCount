@@ -93,9 +93,5 @@
       <Name>MosquitoTrapCount.iOSWatchKitApp</Name>
       <IsWatchApp>True</IsWatchApp>
     </ProjectReference>
-    <ProjectReference Include="..\MosquitoTrapCount\MosquitoTrapCount.PCL.csproj">
-      <Project>{F211D244-8D6A-4632-A09D-ADA5FF1E7DD1}</Project>
-      <Name>MosquitoTrapCount.PCL</Name>
-    </ProjectReference>
   </ItemGroup>
 </Project>
