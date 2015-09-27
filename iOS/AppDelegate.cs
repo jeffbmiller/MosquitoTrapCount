@@ -29,11 +29,20 @@ namespace MosquitoTrapCount.iOS
 
         public async override void HandleWatchKitExtensionRequest(UIApplication application, NSDictionary userInfo, Action<NSDictionary> reply)
         {
+            //Kick off Background Task.
+            var taskId = UIApplication.SharedApplication.BeginBackgroundTask(() =>
+                {
+                });
+
             var results = await CityOfBrandonApi.GetAll2015();
             var dictionary = new NSMutableDictionary();
-            foreach(var d in results.OrderByDescending(x=>x.SamplingDate).Take(5))       
+            foreach(var d in results.OrderByDescending(x=>x.SamplingDate))       
                 dictionary.Add(new NSString(d.SamplingDate.ToString("MMM d")), new NSString(d.DailyAvgCount.ToString()));
             reply(dictionary);
+
+            //End Background task
+            UIApplication.SharedApplication.EndBackgroundTask(taskId);
+          
 
         }
     }
