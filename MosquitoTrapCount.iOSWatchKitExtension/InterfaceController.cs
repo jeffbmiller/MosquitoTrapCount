@@ -9,6 +9,7 @@ namespace MosquitoTrapCount.iOSWatchKitExtension
     {
         public InterfaceController(IntPtr handle) : base(handle)
         {
+            
         }
 
         public override void Awake(NSObject context)

@@ -28,21 +28,21 @@ namespace MosquitoTrapCount.iOSWatchKitExtension
 
         private void LoadTableData()
         {
-            OpenParentApplication(new NSDictionary(), (replyInfo, error) =>
+            OpenParentApplication(new NSDictionary(new NSString("2015DailyAvg"),new NSString()), (replyInfo, error) =>
                 {   
                     if(error != null) {
                         Console.WriteLine (error);
                         return;
                     }
-                    Console.WriteLine(replyInfo);
 
                     trapCountTable.SetNumberOfRows((int)replyInfo.Count, "TrapCountTableRowController");
         
                     var index = 0;
-                    foreach (var d in replyInfo)
+                    foreach (var d in replyInfo.OrderByDescending(x=>((NSDate)x.Key).NSDateToDateTime()))
                     {
                         var row = trapCountTable.GetRowController(index) as TrapCountTableRowController;
-                        row.Update(d.Key.ToString(), d.Value.ToString());
+
+                        row.Update(((NSDate)d.Key).NSDateToDateTime(), d.Value.ToString());
                         index++;
                     }
                 });

@@ -85,6 +85,7 @@
     <Compile Include="TrapCountTableRowController.designer.cs">
       <DependentUpon>TrapCountTableRowController.cs</DependentUpon>
     </Compile>
+    <Compile Include="DateTimeExtensions.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.AppExtension.CSharp.targets" />
   <ItemGroup>

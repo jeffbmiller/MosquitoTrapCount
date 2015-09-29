@@ -3,3 +3,4 @@
 /Users/jeffmiller/Dev/MosquitoTrapCount/MosquitoTrapCount.iOSWatchKitApp/obj/iPhoneSimulator/Debug/actool/partial-info.plist
 /Users/jeffmiller/Dev/MosquitoTrapCount/MosquitoTrapCount.iOSWatchKitApp/obj/iPhoneSimulator/Debug/actool/asset-manifest.plist
 /Users/jeffmiller/Dev/MosquitoTrapCount/MosquitoTrapCount.iOSWatchKitApp/obj/iPhoneSimulator/Debug/optimized/
+/Users/jeffmiller/Dev/MosquitoTrapCount/MosquitoTrapCount.iOSWatchKitApp/obj/iPhoneSimulator/Debug/optimized/MosquitoLogo.png
