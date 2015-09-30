@@ -1,18 +1,18 @@
 ﻿<Properties StartupItem="MosquitoTrapCount.iOSWatchKitExtension/MosquitoTrapCount.iOSWatchKitExtension.csproj">
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.IPhone6.9.0" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="MosquitoTrapCount/Views/YTDTrapsChartView.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Release|iPhone" PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneDeviceTarget" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="MosquitoTrapCount.iOSWatchKitApp/Info.plist">
     <Files>
-      <File FileName="iOS/HUDService.cs" Line="21" Column="55" />
-      <File FileName="MosquitoTrapCount/ViewModels/MenuViewModel.cs" Line="1" Column="1" />
-      <File FileName="MosquitoTrapCount/ViewModels/TrapCountCollectionViewModel.cs" Line="12" Column="3" />
-      <File FileName="MosquitoTrapCount/Views/YTDAvgChartView.cs" Line="68" Column="5" />
-      <File FileName="MosquitoTrapCount/Views/YTDTrapsChartView.cs" Line="101" Column="5" />
+      <File FileName="MosquitoTrapCount.iOSWatchKitApp/Info.plist" />
+      <File FileName="iOS/Info.plist" />
+      <File FileName="MosquitoTrapCount.iOSWatchKitExtension/Info.plist" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="MosquitoTrapCount" expanded="True">
-            <Node name="MosquitoTrapCount.iOS" expanded="True" selected="True" />
+            <Node name="MosquitoTrapCount.iOS" expanded="True" />
+            <Node name="MosquitoTrapCount.iOSWatchKitApp" expanded="True" />
+            <Node name="MosquitoTrapCount.iOSWatchKitExtension" expanded="True" selected="True" />
           </Node>
         </State>
       </Pad>

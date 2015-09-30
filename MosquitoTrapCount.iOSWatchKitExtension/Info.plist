@@ -5,7 +5,7 @@
 	<key>CFBundleDisplayName</key>
 	<string>MosquitoTrapCount.iOSWatchKitExtension</string>
 	<key>CFBundleIdentifier</key>
-	<string>com.hylife.MosquitoTrapCount.watchkitextension</string>
+	<string>com.jeffmiller.brandonmosquitos.watchkitextension</string>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
 	<key>CFBundleShortVersionString</key>
@@ -19,7 +19,7 @@
 		<key>NSExtensionAttributes</key>
 		<dict>
 			<key>WKAppBundleIdentifier</key>
-			<string>com.hylife.MosquitoTrapCount.watchkitapp</string>
+			<string>com.jeffmiller.brandonmosquitos.watchkitapp</string>
 		</dict>
 		<key>NSExtensionPointIdentifier</key>
 		<string>com.apple.watchkit</string>
