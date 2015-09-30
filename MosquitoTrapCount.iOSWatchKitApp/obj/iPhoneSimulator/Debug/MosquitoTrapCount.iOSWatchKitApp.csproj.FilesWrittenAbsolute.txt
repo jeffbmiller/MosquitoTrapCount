@@ -4,3 +4,10 @@
 /Users/jeffmiller/Dev/MosquitoTrapCount/MosquitoTrapCount.iOSWatchKitApp/obj/iPhoneSimulator/Debug/actool/asset-manifest.plist
 /Users/jeffmiller/Dev/MosquitoTrapCount/MosquitoTrapCount.iOSWatchKitApp/obj/iPhoneSimulator/Debug/optimized/
 /Users/jeffmiller/Dev/MosquitoTrapCount/MosquitoTrapCount.iOSWatchKitApp/obj/iPhoneSimulator/Debug/optimized/MosquitoLogo.png
+/Users/jeffmiller/Dev/MosquitoTrapCount/MosquitoTrapCount.iOSWatchKitApp/obj/iPhoneSimulator/Debug/actool/bundle/AppIcons27.5x27.5@2x.png
+/Users/jeffmiller/Dev/MosquitoTrapCount/MosquitoTrapCount.iOSWatchKitApp/obj/iPhoneSimulator/Debug/actool/bundle/AppIcons29x29@2x.png
+/Users/jeffmiller/Dev/MosquitoTrapCount/MosquitoTrapCount.iOSWatchKitApp/obj/iPhoneSimulator/Debug/actool/bundle/AppIcons29x29@3x.png
+/Users/jeffmiller/Dev/MosquitoTrapCount/MosquitoTrapCount.iOSWatchKitApp/obj/iPhoneSimulator/Debug/actool/bundle/AppIcons40x40@2x.png
+/Users/jeffmiller/Dev/MosquitoTrapCount/MosquitoTrapCount.iOSWatchKitApp/obj/iPhoneSimulator/Debug/actool/bundle/AppIcons44x44@2x.png
+/Users/jeffmiller/Dev/MosquitoTrapCount/MosquitoTrapCount.iOSWatchKitApp/obj/iPhoneSimulator/Debug/actool/bundle/AppIcons86x86@2x.png
+/Users/jeffmiller/Dev/MosquitoTrapCount/MosquitoTrapCount.iOSWatchKitApp/obj/iPhoneSimulator/Debug/actool/bundle/AppIcons98x98@2x.png

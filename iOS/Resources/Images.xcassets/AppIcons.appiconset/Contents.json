@@ -106,7 +106,6 @@
     },
     {
       "role": "notificationCenter",
-      "filename": "Icon-Watch-40.png",
       "size": "24x24",
       "subtype": "38mm",
       "scale": "2x",
@@ -114,7 +113,6 @@
     },
     {
       "role": "notificationCenter",
-      "filename": "Icon-Watch-55.png",
       "size": "27.5x27.5",
       "subtype": "42mm",
       "scale": "2x",
@@ -122,21 +120,18 @@
     },
     {
       "role": "companionSettings",
-      "filename": "Icon-Watch-58.png",
       "size": "29x29",
       "scale": "2x",
       "idiom": "watch"
     },
     {
       "role": "companionSettings",
-      "filename": "Icon-Watch-87.png",
       "size": "29x29",
       "scale": "3x",
       "idiom": "watch"
     },
     {
       "role": "appLauncher",
-      "filename": "Icon-Watch-80.png",
       "size": "40x40",
       "subtype": "38mm",
       "scale": "2x",
@@ -144,7 +139,6 @@
     },
     {
       "role": "longLook",
-      "filename": "Icon-Watch-88.png",
       "size": "44x44",
       "subtype": "42mm",
       "scale": "2x",
@@ -152,7 +146,6 @@
     },
     {
       "role": "quickLook",
-      "filename": "Icon-Watch-172.png",
       "size": "86x86",
       "subtype": "38mm",
       "scale": "2x",
