@@ -10,8 +10,11 @@ namespace MosquitoTrapCount
 {
     public class YTDAvgChartView : ContentPage
     {
+		private readonly IHUDService hudService;
+
         public YTDAvgChartView()
         {
+			this.hudService = DependencyService.Get<IHUDService> ();
             Title = "Charts";
             DailyAvgDataPoints = new ObservableCollection<ChartDataPoint>();
             GetData();
@@ -46,15 +49,23 @@ namespace MosquitoTrapCount
                
         public async void GetData()
         {
-            var results = await CityOfBrandonApi.GetAll2015();
+			try {
 
-            foreach (var record in results)
-            {
-                DailyAvgDataPoints.Add(new ChartDataPoint(record.SamplingDate, record.DailyAvgCount));
-            }
+				hudService.Show();
+	            var results = await CityOfBrandonApi.GetAll2015();
+
+	            foreach (var record in results)
+	            {
+	                DailyAvgDataPoints.Add(new ChartDataPoint(record.SamplingDate, record.DailyAvgCount));
+	            }
 
 
-            Content = GetChart();
+	            Content = GetChart();
+				hudService.Dismiss();
+			}
+			catch (Exception e) {
+				hudService.ShowError ("Error Communication With Server");
+			}
         }
     }
 }

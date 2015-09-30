@@ -10,8 +10,11 @@ namespace MosquitoTrapCount
 {
     public class YTDTrapsChartView : ContentPage
     {
+		private readonly IHUDService hudService;
+
         public YTDTrapsChartView()
         {
+			this.hudService = DependencyService.Get<IHUDService> ();
             Title = "Charts";
             Trap1DataPoints = new ObservableCollection<ChartDataPoint>();
             Trap2DataPoints = new ObservableCollection<ChartDataPoint>();
@@ -76,19 +79,26 @@ namespace MosquitoTrapCount
 
         public async void GetData()
         {
-            var results = await CityOfBrandonApi.GetAll2015();
+			try {
 
-            foreach (var record in results)
-            {                
-                Trap1DataPoints.Add(new ChartDataPoint(record.SamplingDate, record.Trap1));
-                Trap2DataPoints.Add(new ChartDataPoint(record.SamplingDate, record.Trap2));
-                Trap3DataPoints.Add(new ChartDataPoint(record.SamplingDate, record.Trap3));
-                Trap4DataPoints.Add(new ChartDataPoint(record.SamplingDate, record.Trap4));
-                Trap5DataPoints.Add(new ChartDataPoint(record.SamplingDate, record.Trap5));
-            }
-                    
+				hudService.Show();
+	            var results = await CityOfBrandonApi.GetAll2015();
 
-            Content = GetChart();
+	            foreach (var record in results)
+	            {                
+	                Trap1DataPoints.Add(new ChartDataPoint(record.SamplingDate, record.Trap1));
+	                Trap2DataPoints.Add(new ChartDataPoint(record.SamplingDate, record.Trap2));
+	                Trap3DataPoints.Add(new ChartDataPoint(record.SamplingDate, record.Trap3));
+	                Trap4DataPoints.Add(new ChartDataPoint(record.SamplingDate, record.Trap4));
+	                Trap5DataPoints.Add(new ChartDataPoint(record.SamplingDate, record.Trap5));
+	            }
+	                    
+
+	            Content = GetChart();
+			}
+			catch (Exception e) {
+				hudService.ShowError ("Error Communication With Server");
+			}
         }
     }
 }
