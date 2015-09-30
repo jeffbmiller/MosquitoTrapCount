@@ -1,22 +1,9 @@
 ﻿<Properties StartupItem="MosquitoTrapCount.iOSWatchKitExtension/MosquitoTrapCount.iOSWatchKitExtension.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Release|iPhone" PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneDeviceTarget" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="MosquitoTrapCount.iOSWatchKitApp/Info.plist">
+  <MonoDevelop.Ide.Workbench ActiveDocument="MosquitoTrapCount.iOSWatchKitExtension/Info.plist">
     <Files>
-      <File FileName="MosquitoTrapCount.iOSWatchKitApp/Info.plist" />
-      <File FileName="iOS/Info.plist" />
       <File FileName="MosquitoTrapCount.iOSWatchKitExtension/Info.plist" />
     </Files>
-    <Pads>
-      <Pad Id="ProjectPad">
-        <State name="__root__">
-          <Node name="MosquitoTrapCount" expanded="True">
-            <Node name="MosquitoTrapCount.iOS" expanded="True" />
-            <Node name="MosquitoTrapCount.iOSWatchKitApp" expanded="True" />
-            <Node name="MosquitoTrapCount.iOSWatchKitExtension" expanded="True" selected="True" />
-          </Node>
-        </State>
-      </Pad>
-    </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
