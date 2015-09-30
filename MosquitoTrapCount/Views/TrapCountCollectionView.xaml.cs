@@ -11,6 +11,7 @@ namespace MosquitoTrapCount
         public TrapCountCollectionView(bool isHistorical)
         {
             InitializeComponent();
+			this.Title = isHistorical ? "Historical Trap Counts" : "2015 Trap Counts";
             BindingContext = (viewModel = new TrapCountCollectionViewModel(isHistorical));
         }
 
