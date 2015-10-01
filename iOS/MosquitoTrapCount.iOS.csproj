@@ -172,6 +172,7 @@
     <Compile Include="AppDelegate.cs" />
     <Compile Include="DateTimeExtensions.cs" />
     <Compile Include="HUDService.cs" />
+    <Compile Include="iOSBrowserService.cs" />
   </ItemGroup>
   <ItemGroup>
     <ITunesArtwork Include="ITunesArtwork" />

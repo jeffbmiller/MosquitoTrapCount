@@ -4,9 +4,9 @@
 	--cache \
 	/Users/jeffmiller/Dev/MosquitoTrapCount/MosquitoTrapCount.iOSWatchKitExtension/obj/iPhoneSimulator/Debug/mtouch-cache \
 	--sim \
-	/Users/jeffmiller/Dev/MosquitoTrapCount/MosquitoTrapCount.iOSWatchKitExtension/bin/iPhoneSimulator/Debug/com.hylife.MosquitoTrapCount.watchkitextension.appex \
+	/Users/jeffmiller/Dev/MosquitoTrapCount/MosquitoTrapCount.iOSWatchKitExtension/bin/iPhoneSimulator/Debug/com.jeffmiller.brandonmosquitos.watchkitextension.appex \
 	--executable \
-	com.hylife.MosquitoTrapCount.watchkitextension \
+	com.jeffmiller.brandonmosquitos.watchkitextension \
 	--extension \
 	--debug \
 	--nolink \

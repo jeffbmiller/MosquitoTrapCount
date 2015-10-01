@@ -4,6 +4,9 @@
 	xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
 	x:Class="MosquitoTrapCount.MenuView"
 	Title="Brandon Mosquitos">
+	<ContentPage.ToolbarItems>
+		<ToolbarItem Name="Info" Clicked="OnInfoClicked"/>
+	</ContentPage.ToolbarItems>
 	<ContentPage.Content>
 		<ListView 
 			ItemsSource="{Binding MenuItems}"

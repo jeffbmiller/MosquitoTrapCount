@@ -14,6 +14,11 @@ namespace MosquitoTrapCount
             BindingContext = viewModel = new MenuViewModel();
         }
 
+		private void OnInfoClicked(object sender, EventArgs args)
+		{
+			this.Navigation.PushAsync (new InfoView ());
+		}
+
         private void OnTapped (object sender, EventArgs args)
         {
             if (viewModel.Selected == null)

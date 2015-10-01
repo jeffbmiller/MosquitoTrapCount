@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="MosquitoTrapCount.InfoView">
+	<ContentPage.Content>
+		<StackLayout Padding="10">
+			<Label XAlign="Center" Text="Brandon Mosquitos" FontSize="30" Font="Bold" />
+			<Label XAlign="Center" Text="Developed by Jeff Miller (jeffmiller11@gmail.com)"/>
+			<Label Text="This App uses data from the City Of Brandon open dataset api under its terms and conditions. This app is in now way affiliated with the City Of Brandon."/>
+			<Button Text="http://opengov.brandon.ca/OpenDataService/opendata.html" Clicked="WebLinkClicked"/>
+		</StackLayout>
+	</ContentPage.Content>
+</ContentPage>
