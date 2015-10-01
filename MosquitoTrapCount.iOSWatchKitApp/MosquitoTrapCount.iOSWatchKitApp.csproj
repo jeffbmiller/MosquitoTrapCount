@@ -88,5 +88,20 @@
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.WatchApp.CSharp.targets" />
   <ItemGroup>
     <BundleResource Include="Resources\MosquitoLogo.png" />
+    <BundleResource Include="Resources\Activity1%402x.png" />
+    <BundleResource Include="Resources\Activity2%402x.png" />
+    <BundleResource Include="Resources\Activity3%402x.png" />
+    <BundleResource Include="Resources\Activity4%402x.png" />
+    <BundleResource Include="Resources\Activity5%402x.png" />
+    <BundleResource Include="Resources\Activity6%402x.png" />
+    <BundleResource Include="Resources\Activity7%402x.png" />
+    <BundleResource Include="Resources\Activity8%402x.png" />
+    <BundleResource Include="Resources\Activity9%402x.png" />
+    <BundleResource Include="Resources\Activity10%402x.png" />
+    <BundleResource Include="Resources\Activity11%402x.png" />
+    <BundleResource Include="Resources\Activity12%402x.png" />
+    <BundleResource Include="Resources\Activity13%402x.png" />
+    <BundleResource Include="Resources\Activity14%402x.png" />
+    <BundleResource Include="Resources\Activity15%402x.png" />
   </ItemGroup>
 </Project>
