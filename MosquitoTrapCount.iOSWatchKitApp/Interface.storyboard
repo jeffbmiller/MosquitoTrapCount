@@ -24,7 +24,7 @@
         </scene>
         <scene sceneID="4">
             <objects>
-                <controller id="5" customClass="TableInterfaceController">
+                <controller id="5" customClass="TableInterfaceController" title="Daily Avg">
                     <items>
                         <table alignment="left" id="27">
                             <items>
