@@ -9,7 +9,9 @@
 		ItemSelected="OnItemSelected"
 		SelectedItem="{Binding Selected}"
 		HasUnevenRows="true"
-		>
+		IsGroupingEnabled="true"
+            GroupDisplayBinding="{ Binding Year }"
+            >
 			<ListView.ItemTemplate>
 			    <DataTemplate>
 			    	<ViewCell Height="120">

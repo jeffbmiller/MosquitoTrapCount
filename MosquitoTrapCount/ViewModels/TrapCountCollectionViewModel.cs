@@ -3,6 +3,7 @@ using System.Collections.ObjectModel;
 using System.Collections.Generic;
 using MosquitoTrapCount.PCL;
 using Xamarin.Forms;
+using System.Linq;
 
 namespace MosquitoTrapCount
 {
@@ -15,10 +16,10 @@ namespace MosquitoTrapCount
         {
 			this.hudService = DependencyService.Get<IHUDService> ();
             this.isHistorical = isHistorical;
-            Records = new ObservableCollection<TrapCountRecordViewModel>();
+			Records = new ObservableCollection<TrapCountYearGroup>();
         }
 
-        public ObservableCollection<TrapCountRecordViewModel> Records {get;set;}
+		public ObservableCollection<TrapCountYearGroup> Records {get;set;}
 
         public async void Refresh()
         {
@@ -29,9 +30,9 @@ namespace MosquitoTrapCount
 				{
 					hudService.Show ();
 	                var records = await CityOfBrandonApi.GetHistorical();
-	                foreach (var item in records)
+					foreach (var group in records.GroupBy(x=>x.SamplingDate.Year))
 	                {
-	                    Records.Add(new TrapCountRecordViewModel(item));
+						Records.Add(new TrapCountYearGroup(group.Key, group.Select(x=> new TrapCountRecordViewModel(x))));
 	                }
 					hudService.Dismiss ();
 				}
@@ -45,9 +46,9 @@ namespace MosquitoTrapCount
 				try {
 					hudService.Show ();
 	                var records = await CityOfBrandonApi.GetAll2015();
-	                foreach (var item in records)
+					foreach (var group in records.GroupBy(x=>x.SamplingDate.Year))
 	                {
-	                    Records.Add(new TrapCountRecordViewModel(item));
+						Records.Add(new TrapCountYearGroup(group.Key, group.Select(x=> new TrapCountRecordViewModel(x))));
 	                }
 					hudService.Dismiss ();
 				}
