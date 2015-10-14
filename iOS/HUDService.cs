@@ -8,7 +8,8 @@ namespace MosquitoTrapCount.iOS
 	{
 		public void Show(string message = null)
 		{
-			BigTed.BTProgressHUD.Show (message);
+			BigTed.BTProgressHUD.ForceiOS6LookAndFeel = true;
+			BigTed.BTProgressHUD.Show (message ?? "Loading");
 		}
 
 		public void Dismiss()

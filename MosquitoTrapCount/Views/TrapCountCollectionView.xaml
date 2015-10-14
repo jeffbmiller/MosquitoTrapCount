@@ -10,7 +10,10 @@
 		SelectedItem="{Binding Selected}"
 		HasUnevenRows="true"
 		IsGroupingEnabled="true"
-            GroupDisplayBinding="{ Binding Year }"
+        GroupDisplayBinding="{ Binding Year }"
+        IsPullToRefreshEnabled="true"
+        RefreshCommand="{Binding RefreshCommand}"
+        IsRefreshing="{Binding IsBusy, Mode=OneWay}"
             >
 			<ListView.ItemTemplate>
 			    <DataTemplate>

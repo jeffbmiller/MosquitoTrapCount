@@ -7,7 +7,7 @@ using System.Linq;
 
 namespace MosquitoTrapCount
 {
-    public class TrapCountCollectionViewModel
+	public class TrapCountCollectionViewModel :BaseViewModel
     {
         private bool isHistorical;
 		private readonly IHUDService hudService;
@@ -19,11 +19,33 @@ namespace MosquitoTrapCount
 			Records = new ObservableCollection<TrapCountYearGroup>();
         }
 
+		private Command refreshCommand;
+		public Command RefreshCommand
+		{
+			get
+			{
+				return refreshCommand ?? (refreshCommand = new Command (ExecuteRefreshCommand, ()=>
+					{
+						return !IsBusy;
+					}));
+			}
+		}
+		private async void ExecuteRefreshCommand ()
+		{
+			if (IsBusy)
+				return;
+			IsBusy = true;
+			RefreshCommand.ChangeCanExecute();
+			Refresh ();
+			IsBusy = false;
+			RefreshCommand.ChangeCanExecute();
+		}
+
 		public ObservableCollection<TrapCountYearGroup> Records {get;set;}
 
         public async void Refresh()
         {
-
+			Records.Clear ();
             if (isHistorical)
             {
 				try
