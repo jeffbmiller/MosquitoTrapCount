@@ -37,8 +37,8 @@
 		    					<Label Text="{Binding Trap5CountDisplay}" FontSize="12" HorizontalOptions="Start"/>
 		    				</StackLayout>
 		    				<StackLayout Grid.Column="2" Orientation="Vertical" HorizontalOptions="Center" VerticalOptions="Center">
-		    					<Label Text="Daily Avg" FontSize="12" HorizontalOptions="Center"/>
-		    					<Label Text="{Binding Avg}" FontSize="12" HorizontalOptions="Center"/>
+		    					<Label Text="Daily Avg" FontSize="16" HorizontalOptions="Center"/>
+		    					<Label Text="{Binding Avg}" FontSize="16" HorizontalOptions="Center"/>
 		    				</StackLayout>
 	    				</Grid>
 			    	</ViewCell>
