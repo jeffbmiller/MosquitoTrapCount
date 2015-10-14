@@ -12,11 +12,13 @@ namespace MosquitoTrapCount
         {
             InitializeComponent();
             BindingContext = viewModel = new MenuViewModel();
+			NavigationPage.SetBackButtonTitle (this, "Back");
         }
 
 		private void OnInfoClicked(object sender, EventArgs args)
 		{
 			this.Navigation.PushAsync (new InfoView ());
+
 		}
 
         private void OnTapped (object sender, EventArgs args)

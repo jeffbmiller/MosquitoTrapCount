@@ -45,7 +45,7 @@ namespace MosquitoTrapCount.PCL
             var results = new List<TrapCountRecord>();
             using (var webclient = new HttpClient())
             {
-                var url = new Uri("http://opengov.brandon.ca/opendataservice/Default.aspx?dataset=mosquito_counts_historical&format=json&columns=Sampling%20Dates"); 
+                var url = new Uri("http://opengov.brandon.ca/opendataservice/Default.aspx?dataset=mosquito_counts_historical&format=json&columns=Sampling%20Dates&limit=1000"); 
                 var json = await webclient.GetStringAsync(url);
 
                 var tokens = JArray.Parse(json);
