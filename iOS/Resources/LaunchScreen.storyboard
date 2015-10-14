@@ -16,8 +16,44 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" id="3" translatesAutoresizingMaskIntoConstraints="NO" image="Mosquito.png" misplaced="YES">
+                                <rect key="frame" x="248" y="254" width="104" height="92"/>
+                                <variation key="heightClass=regular-widthClass=compact">
+                                    <rect key="frame" x="108" y="193" width="106" height="96"/>
+                                    <mask key="constraints">
+                                        <include reference="16"/>
+                                        <include reference="17"/>
+                                    </mask>
+                                </variation>
+                                <constraints>
+                                    <constraint id="16" firstItem="3" firstAttribute="height" constant="96"/>
+                                    <constraint id="17" firstItem="3" firstAttribute="width" constant="106"/>
+                                </constraints>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="16"/>
+                                        <exclude reference="17"/>
+                                    </mask>
+                                </variation>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" colorSpace="calibratedRGB" red="0.31764705882352939" green="0.25882352941176473" blue="0.38823529411764707" alpha="1"/>
+                        <constraints>
+                            <constraint firstItem="3" firstAttribute="centerY" secondItem="yd7-JS-zBw" secondAttribute="centerY" constant="1" id="8"/>
+                            <constraint firstItem="3" firstAttribute="centerX" secondItem="yd7-JS-zBw" secondAttribute="centerX" constant="1" id="9"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="8"/>
+                                <exclude reference="9"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=regular-widthClass=compact">
+                            <mask key="constraints">
+                                <include reference="8"/>
+                                <include reference="9"/>
+                            </mask>
+                        </variation>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="XAI-xm-WK6" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -31,10 +67,13 @@
         <image name="Default-568h.png" width="640" height="1136"/>
         <image name="Default-Portrait.png" width="768" height="1004"/>
         <image name="Icon-76.png" width="76" height="76"/>
-        <image name="Icon-Small.png" width="29" height="29"/>
-        <image name="Icon-Small-40.png" width="40" height="40"/>
+        <image name="Icon-Small.png" width="87" height="87"/>
+        <image name="Icon-Small-40.png" width="120" height="120"/>
         <image name="Mosquito.png" width="134" height="138"/>
         <image name="Chart.png" width="135" height="132"/>
         <image name="HistoryIcon.png" width="125" height="116"/>
     </resources>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedScreenMetrics key="destination"/>
+    </simulatedMetricsContainer>
 </document>
