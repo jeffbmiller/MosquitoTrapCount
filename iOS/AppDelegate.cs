@@ -21,7 +21,7 @@ namespace MosquitoTrapCount.iOS
             UINavigationBar.Appearance.TintColor = UIColor.White;
             UINavigationBar.Appearance.SetTitleTextAttributes(new UITextAttributes(){ TextColor = UIColor.White });
             UIApplication.SharedApplication.SetStatusBarStyle (UIStatusBarStyle.LightContent, false);
-
+			UIApplication.SharedApplication.SetStatusBarHidden(false, false);
             LoadApplication(new App());
 
             return base.FinishedLaunching(app, options);

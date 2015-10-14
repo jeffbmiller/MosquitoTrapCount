@@ -9,7 +9,10 @@ namespace MosquitoTrapCount
         public App()
         {
             // The root page of your application
-            MainPage = new NavigationPage(new MenuView());
+			var navPage = new NavigationPage(new MenuView());
+			navPage.BarTextColor = Color.White;
+            MainPage = navPage;
+
         }
 
         protected override void OnStart()
