@@ -13,10 +13,10 @@
                         <viewControllerLayoutGuide type="bottom" id="9ZL-r4-8FZ"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="yd7-JS-zBw">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" id="3" translatesAutoresizingMaskIntoConstraints="NO" image="Mosquito.png" misplaced="YES">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" id="3" translatesAutoresizingMaskIntoConstraints="NO" image="Mosquito.png">
                                 <rect key="frame" x="248" y="254" width="104" height="92"/>
                                 <variation key="heightClass=regular-widthClass=compact">
                                     <rect key="frame" x="108" y="193" width="106" height="96"/>
