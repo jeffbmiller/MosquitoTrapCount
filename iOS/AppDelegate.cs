@@ -6,6 +6,7 @@ using Foundation;
 using UIKit;
 using Syncfusion.SfChart.XForms.iOS.Renderers;
 using MosquitoTrapCount.PCL;
+using Xamarin;
 
 namespace MosquitoTrapCount.iOS
 {
@@ -16,6 +17,12 @@ namespace MosquitoTrapCount.iOS
         {
             new SfChartRenderer();
             global::Xamarin.Forms.Forms.Init();
+
+			#if DEBUG
+				Insights.Initialize(Insights.DebugModeKey);
+			#else
+				Insights.Initialize("3f19f22e7e8b044795c9066e05a67412f4720786");
+			#endif
 
             UINavigationBar.Appearance.BarTintColor = UIColor.FromRGB(81, 66, 99);
             UINavigationBar.Appearance.TintColor = UIColor.White;
