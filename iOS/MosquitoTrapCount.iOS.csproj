@@ -130,11 +130,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\MosquitoTrapCount.iOSWatchKitExtension\MosquitoTrapCount.iOSWatchKitExtension.csproj">
-      <Project>{52F0D4EF-0438-4BF4-9356-0D6647E7B4A2}</Project>
-      <Name>MosquitoTrapCount.iOSWatchKitExtension</Name>
-      <IsAppExtension>True</IsAppExtension>
-    </ProjectReference>
     <ProjectReference Include="..\MosquitoTrapCount\MosquitoTrapCount.PCL.csproj">
       <Project>{F211D244-8D6A-4632-A09D-ADA5FF1E7DD1}</Project>
       <Name>MosquitoTrapCount.PCL</Name>
