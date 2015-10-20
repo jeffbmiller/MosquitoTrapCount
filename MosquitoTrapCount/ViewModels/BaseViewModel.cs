@@ -1,5 +1,6 @@
 ﻿using System;
 using System.ComponentModel;
+using Xamarin.Forms;
 
 namespace MosquitoTrapCount
 {
@@ -20,7 +21,7 @@ namespace MosquitoTrapCount
             }
         }
 
-      
+		public Color BackgroundColor {get {return Color.FromHex("#EFEFF4");}}
 
         #region INotifyPropertyChanged implementation
 

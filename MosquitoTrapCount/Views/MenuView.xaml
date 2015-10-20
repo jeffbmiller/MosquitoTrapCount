@@ -3,12 +3,14 @@
 	xmlns="http://xamarin.com/schemas/2014/forms" 
 	xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
 	x:Class="MosquitoTrapCount.MenuView"
-	Title="Brandon Mosquitos">
+	Title="Brandon Mosquitos"
+	>
 	<ContentPage.ToolbarItems>
 		<ToolbarItem Name="Info" Clicked="OnInfoClicked"/>
 	</ContentPage.ToolbarItems>
 	<ContentPage.Content>
 		<ListView 
+			BackgroundColor="{Binding BackgroundColor}"
 			ItemsSource="{Binding MenuItems}"
 			HasUnevenRows="true"
 			SeparatorVisibility="None"
